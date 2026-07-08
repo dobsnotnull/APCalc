@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>APCalc</title>
+
+    </head>
+
+    <body>
+
+        <div class="text">
+        
+            <h1>APCalc</h1>
+
+            <!-- I want to add an animation here (replacing the future with another word every 2s) -->
+
+            <p>Calculate your future</p>
+
+        </div>
+
+        <div class="calculator">
+
+            <input type="text" id="display" >
+
+            <div class="buttons">
+
+                <div class="row">
+
+                    <button><i data-lucide="delete"></i></button>
+                    <button>AC</button>
+                    <button><i data-lucide="percent"></i></button>
+                    <button><i data-lucide="divide"></i></button>
+
+                </div>
+
+                <div class="row">
+
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button><i data-lucide="x"></i></button>
+
+                </div>
+
+                <div class="row">
+
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button><i data-lucide="minus"></i></button>
+
+                </div>
+
+                <div class="row">
+
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button><i data-lucide="plus"></i></button>
+
+                </div>
+
+                <div class="row">
+
+                    <button><i data-lucide="history"></i></button>
+                    <button>0</button>
+                    <button>.</button>
+                    <button><i data-lucide="equal"></i></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="calc.js"></script>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+
+        <script>lucide.createIcons(); </script>
+
+    </body>
+
+</html>

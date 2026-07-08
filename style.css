@@ -1,0 +1,145 @@
+/* IMPORTED THAT GEIST MONO FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* JUST STARTED LEARNING THIS ROOT THING */
+
+:root {
+
+    /* COLOR WHEEL */
+
+    /* WHITE SMOKE COLOR WHEEL 😝😝😝 */
+
+    /* --extra-color is called blazing flame, I think I like it */
+
+    --prime-color: #F5F5F5; 
+    --second-color: #CCCCCC;
+    --extra-color: #F34213;
+
+    --text-color: #323232;
+    --text-light-color: #C2C2C2;
+
+    --border-color: #E0E0E0;
+
+
+
+    /* TYPOGRAPHY N SHI */
+
+    --body-font: "Geist mono", sans-serif;
+
+    --normal-text-size: 0.75rem;
+    --h1-text-size: 1.5rem;
+    --light-text-size: 0.7rem;
+
+
+
+    /* BORDER RADIUS */
+
+    --outer-border-radius: 16px;
+    --inner-border-radius: 8px;
+
+
+
+     /* SHADOW WIZARD MONEY GANG 🥷*/
+
+    --shadow-sm:  2px 2px 4px #cfcfcf, -2px -2px 4px #ffffff;
+    --shadow-md: 6px 6px 12px #cfcfcf, -6px -6px 12px #ffffff;
+    --shadow-lg:  12px 12px 24px #cfcfcf, -12px -12px 24px #ffffff;;
+
+
+    /* TRANSITIONS */
+
+    --transition-fast: .2s ease;
+    --transition-normal: .3s ease;
+    --transition-slow: .5s ease;
+
+  
+    /* Z-INDEX */
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+}
+
+
+
+/* BASE */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geist mono", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--prime-color);
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    background-color: var(--prime-color);
+    border: none;
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--inner-border-radius);
+}
+
+.text {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: var(--h1-text-size);
+    color: var(--second-color);
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: var(--light-text-size);
+    color: var(--text-light-color);
+}
+
+.calculator{
+    display: grid;
+    background-color: var(--prime-color);
+    border: none;
+    box-shadow: var(--shadow-sm);
+    justify-content: center;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: var(--outer-border-radius);
+    margin: 30px auto;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+input {
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    border: none;
+    height: 80px;
+    border-radius: 8px;
+}

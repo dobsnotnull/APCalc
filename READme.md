@@ -11,3 +11,7 @@
 - Made with html, css and js
 - Lucide icon library
 - NodeJs for history
+
+//NOTE
+
+- This was not done with any form of AI, I just have a really good design sense
